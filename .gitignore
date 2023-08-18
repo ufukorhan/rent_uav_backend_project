@@ -1,0 +1,22 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+.env
+
+# Ignore the log files
+logs/
+
+# Ignore the media files
+media/
+
+# Ignore the static files
+staticfiles/
+
+# Ignore the secret key file
+secret_key.txt
+
+# Ignore the IDE configuration files
+.vscode/
+.idea/
