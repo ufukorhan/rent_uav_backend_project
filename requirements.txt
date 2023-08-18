@@ -6,3 +6,5 @@ psycopg2_binary==2.9.7
 django_extensions==3.2.3
 django-filter==23.2
 model-mommy==2.0.0
+drf-yasg==1.21.7
+
