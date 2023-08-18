@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -91,7 +91,7 @@ DATABASES = {
         "NAME": os.environ.get("PG_DB_NAME"),
         "USER": os.environ.get("PG_DB_USER"),
         "PASSWORD": os.environ.get("PG_DB_PASSWORD"),
-        "HOST": os.environ.get("PG_DB_HOST"),
+        "HOST": "db",
         "PORT": os.environ.get("PG_DB_PORT"),
     }
 }

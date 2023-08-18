@@ -40,13 +40,13 @@
 4. Install the requirements
 5. Create a .env file in the root directory of the project
 6. Add the following environment variables to the .env file
-    - SECRET_KEY
     - DEBUG
-    - DB_NAME
-    - DB_USER
-    - DB_PASSWORD
-    - DB_HOST
-    - DB_PORT
+    - SECRET_KEY 
+    - PG_DB_HOST
+    - PG_DB_USER
+    - PG_DB_PASSWORD
+    - PG_DB_NAME
+    - PG_DB_PORT
 7. Run the migrations
 8. Create a superuser
 9. Run the server
