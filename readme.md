@@ -11,6 +11,10 @@
 You can click this link for api endpoints.
 - http://0.0.0.0:8000/swagger/
 
+# RUN WITH DOCKER
+- docker-compose up
+- docker-compose exec web python manage.py createsuperuser
+
 
 # SETUP
 
@@ -32,7 +36,3 @@ You can click this link for api endpoints.
 9. Run the server
 10. Access the API endpoints
 11. Run the tests
-
-# RUN WITH DOCKER
-    - docker-compose up
-    - docker-compose exec web python manage.py createsuperuser
