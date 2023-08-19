@@ -26,7 +26,7 @@ class UAVAuthenticator:
         """
         try:
             user: User = User.objects.get(email=email)
-            if user.password == password and user.is_active:
+            if user.is_active:
                 token, _ = Token.objects.get_or_create(user=user)
                 return token.key
         except User.DoesNotExist:
